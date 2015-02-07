@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             dev: {
-                files: ["src/scss/{,*/}*.*", "src/images/icon/*.*"],
+                files: ["src/scss/{,*/}*.*"],
                 tasks: ["sass"],
                 options: {
                     livereload: 5000
